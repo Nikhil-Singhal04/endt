@@ -1,7 +1,7 @@
 # Create Key Pair in AWS
 resource "aws_key_pair" "my_key" {
   key_name   = "terraform-key"
-  public_key = file("terraform-key.pub")
+  public_key = file("terraform-key1.pub")
 }
 
 # Security Group (Allow SSH)
