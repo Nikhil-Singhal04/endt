@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION = "us-east-1"
-        INSTANCE_ID = "i-080dcf258cf6af4c9"
+        INSTANCE_ID = "i-0649de9b55aa99bf6"
     }
 
     stages {
