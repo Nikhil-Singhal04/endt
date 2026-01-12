@@ -23,7 +23,7 @@ resource "aws_security_group" "ssh_sg" {
   }
 }
 
-# EC2 Instance 
+# EC2 Instance created
 resource "aws_instance" "my_ec2" {
   ami                    = "ami-0ecb62995f68bb549"   # Amazon Linux 2 (Mumbai)
   instance_type          = "t2.micro"
